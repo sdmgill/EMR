@@ -1,0 +1,23 @@
+[
+	{
+	"classification":"spark-defaults",
+	"properties":{
+		"spark.executor.memory":"15G",
+		"spark.driver.memory":"15G",
+		"spark.driver.maxResultSize":"10G",
+		"spark.driver.cores":"8"
+		}
+	},
+	{
+    "Classification": "spark-env",
+    "Configurations": [
+						{
+						"Classification": "export",
+						"Properties": {
+									"EXTRA_CLASSPATH": "s3://pa-emr-build-files/jar/harsha2010:magellan-1.0.5-s_2.11.jar"
+									}		
+						}
+					]
+	}
+]
+	

@@ -1,0 +1,11 @@
+[
+	{
+	"classification":"spark-defaults",
+	"properties":{
+		"spark.executor.memory":"2G",
+		"spark.driver.memory":"2G",
+		"spark.driver.maxResultSize":"1G",
+		"spark.driver.cores":"2"
+		}
+	}
+]

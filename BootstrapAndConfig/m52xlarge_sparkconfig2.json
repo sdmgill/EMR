@@ -1,0 +1,23 @@
+[
+	{
+	"classification":"spark-defaults",
+	"properties":{
+		"spark.executor.memory":"15G",
+		"spark.driver.memory":"15G",
+		"spark.driver.maxResultSize":"10G",
+		"spark.driver.cores":"8"
+		}
+	},
+	{
+    "Classification": "spark-env",
+    "Configurations": [
+						{
+						"Classification": "export",
+						"Properties": {
+									"PYSPARK_PYTHON": "/usr/bin/python3"
+									}		
+						}
+					]
+	}
+]
+	
